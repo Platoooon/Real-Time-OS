@@ -1,0 +1,8 @@
+eclipse.preferences.version=1
+rtosType=FreeRTOS
+sameFileHandling=Do nothing
+traceBufferAddressExpression=RecorderDataPtr
+traceBufferSizeExpression=sizeof(*RecorderDataPtr)
+traceDirectory=P\:\\MEA4\\OSTR\\bin_files
+tracealyzerPath=C\:\\Program Files\\Percepio\\Tracealyzer 4\\Tracealyzer.exe
+tracealyzerPreviousPaths=C\:\\Program Files\\Percepio\\Tracealyzer 4;C\:\\Program Files\\Percepio\\Tracealyzer 4\\Tracealyzer.exe

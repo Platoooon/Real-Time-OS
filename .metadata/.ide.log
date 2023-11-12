@@ -1,0 +1,125 @@
+2022-11-30 08:29:04,527 [INFO] Activator:170 - 
+
+
+2022-11-30 08:29:04,527 [INFO] Activator:171 - !SESSION log4j initialized
+2022-12-06 15:09:46,429 [INFO] Activator:170 - 
+
+
+2022-12-06 15:09:46,461 [INFO] Activator:171 - !SESSION log4j initialized
+2022-12-06 15:13:10,103 [INFO] Activator:170 - 
+
+
+2022-12-06 15:13:10,119 [INFO] Activator:171 - !SESSION log4j initialized
+2022-12-06 15:24:09,329 [INFO] Activator:170 - 
+
+
+2022-12-06 15:24:09,329 [INFO] Activator:171 - !SESSION log4j initialized
+2022-12-06 15:24:21,779 [WARN] FS:596 - locking FileBasedConfig[C:\SPB_Data\.gitconfig] failed after 5 retries
+2022-12-07 17:16:04,379 [INFO] Activator:170 - 
+
+
+2022-12-07 17:16:04,379 [INFO] Activator:171 - !SESSION log4j initialized
+2022-12-09 16:21:40,321 [INFO] Activator:170 - 
+
+
+2022-12-09 16:21:40,337 [INFO] Activator:171 - !SESSION log4j initialized
+2022-12-16 15:11:42,172 [INFO] Activator:179 - 
+
+
+2022-12-16 15:11:42,172 [INFO] Activator:180 - !SESSION log4j initialized
+2023-01-13 15:05:31,600 [INFO] Activator:170 - 
+
+
+2023-01-13 15:05:31,631 [INFO] Activator:171 - !SESSION log4j initialized
+2023-01-13 15:06:03,186 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] java.lang.NumberFormatException: For input string: "/MEA4/OSTR/workspace_OSTR/projet_OSTR/cmsis/core/core_cm0.h"
+2023-01-13 15:06:03,186 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.lang.NumberFormatException.forInputString(Unknown Source)
+2023-01-13 15:06:03,186 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.lang.Integer.parseInt(Unknown Source)
+2023-01-13 15:06:03,186 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.lang.Integer.parseInt(Unknown Source)
+2023-01-13 15:06:03,186 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.stackanalyzer.model.StackUsageParser.parseLine(StackUsageParser.java:130)
+2023-01-13 15:06:03,201 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.stackanalyzer.model.StackUsageParser.lambda$0(StackUsageParser.java:108)
+2023-01-13 15:06:03,201 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(Unknown Source)
+2023-01-13 15:06:03,201 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.util.stream.ReferencePipeline$Head.forEach(Unknown Source)
+2023-01-13 15:06:03,208 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.stackanalyzer.model.StackUsageParser.parseFile(StackUsageParser.java:108)
+2023-01-13 15:06:03,208 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$5(StackAnalyzerView.java:831)
+2023-01-13 15:06:03,208 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(Unknown Source)
+2023-01-13 15:06:03,208 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.util.stream.ReferencePipeline$Head.forEach(Unknown Source)
+2023-01-13 15:06:03,208 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:831)
+2023-01-13 15:06:03,208 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$14(StackAnalyzerView.java:1187)
+2023-01-13 15:06:03,208 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.lang.Thread.run(Unknown Source)
+2023-01-13 15:06:03,208 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] java.lang.NumberFormatException: For input string: "/MEA4/OSTR/workspace_OSTR/projet_OSTR/cmsis/core/core_cm0.h"
+2023-01-13 15:06:03,223 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.lang.NumberFormatException.forInputString(Unknown Source)
+2023-01-13 15:06:03,223 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.lang.Integer.parseInt(Unknown Source)
+2023-01-13 15:06:03,223 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.lang.Integer.parseInt(Unknown Source)
+2023-01-13 15:06:03,223 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.stackanalyzer.model.StackUsageParser.parseLine(StackUsageParser.java:130)
+2023-01-13 15:06:03,223 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.stackanalyzer.model.StackUsageParser.lambda$0(StackUsageParser.java:108)
+2023-01-13 15:06:03,239 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(Unknown Source)
+2023-01-13 15:06:03,239 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.util.stream.ReferencePipeline$Head.forEach(Unknown Source)
+2023-01-13 15:06:03,239 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.stackanalyzer.model.StackUsageParser.parseFile(StackUsageParser.java:108)
+2023-01-13 15:06:03,239 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$5(StackAnalyzerView.java:831)
+2023-01-13 15:06:03,239 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(Unknown Source)
+2023-01-13 15:06:03,239 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.util.stream.ReferencePipeline$Head.forEach(Unknown Source)
+2023-01-13 15:06:03,239 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:831)
+2023-01-13 15:06:03,255 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$14(StackAnalyzerView.java:1187)
+2023-01-13 15:06:03,255 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.lang.Thread.run(Unknown Source)
+2023-01-13 15:07:05,291 [INFO] Activator:170 - 
+
+
+2023-01-13 15:07:05,291 [INFO] Activator:171 - !SESSION log4j initialized
+2023-01-13 15:07:24,016 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] java.lang.NumberFormatException: For input string: "/Users/nobil/Desktop/Travail MEA/MEA4/S7/Informatique/workspace_OSTR/projet_OSTR/cmsis/core/core_cm0.h"
+2023-01-13 15:07:24,016 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.lang.NumberFormatException.forInputString(Unknown Source)
+2023-01-13 15:07:24,016 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.lang.Integer.parseInt(Unknown Source)
+2023-01-13 15:07:24,032 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.lang.Integer.parseInt(Unknown Source)
+2023-01-13 15:07:24,032 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.stackanalyzer.model.StackUsageParser.parseLine(StackUsageParser.java:130)
+2023-01-13 15:07:24,032 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.stackanalyzer.model.StackUsageParser.lambda$0(StackUsageParser.java:108)
+2023-01-13 15:07:24,032 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(Unknown Source)
+2023-01-13 15:07:24,032 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.util.stream.ReferencePipeline$Head.forEach(Unknown Source)
+2023-01-13 15:07:24,032 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.stackanalyzer.model.StackUsageParser.parseFile(StackUsageParser.java:108)
+2023-01-13 15:07:24,047 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$5(StackAnalyzerView.java:831)
+2023-01-13 15:07:24,047 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(Unknown Source)
+2023-01-13 15:07:24,047 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.util.stream.ReferencePipeline$Head.forEach(Unknown Source)
+2023-01-13 15:07:24,047 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:831)
+2023-01-13 15:07:24,047 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$14(StackAnalyzerView.java:1187)
+2023-01-13 15:07:24,047 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.lang.Thread.run(Unknown Source)
+2023-01-13 15:07:24,063 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] java.lang.NumberFormatException: For input string: "/Users/nobil/Desktop/Travail MEA/MEA4/S7/Informatique/workspace_OSTR/projet_OSTR/cmsis/core/core_cm0.h"
+2023-01-13 15:07:24,063 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.lang.NumberFormatException.forInputString(Unknown Source)
+2023-01-13 15:07:24,063 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.lang.Integer.parseInt(Unknown Source)
+2023-01-13 15:07:24,063 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.lang.Integer.parseInt(Unknown Source)
+2023-01-13 15:07:24,069 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.stackanalyzer.model.StackUsageParser.parseLine(StackUsageParser.java:130)
+2023-01-13 15:07:24,069 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.stackanalyzer.model.StackUsageParser.lambda$0(StackUsageParser.java:108)
+2023-01-13 15:07:24,069 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(Unknown Source)
+2023-01-13 15:07:24,069 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.util.stream.ReferencePipeline$Head.forEach(Unknown Source)
+2023-01-13 15:07:24,069 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.stackanalyzer.model.StackUsageParser.parseFile(StackUsageParser.java:108)
+2023-01-13 15:07:24,069 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$5(StackAnalyzerView.java:831)
+2023-01-13 15:07:24,069 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(Unknown Source)
+2023-01-13 15:07:24,085 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.util.stream.ReferencePipeline$Head.forEach(Unknown Source)
+2023-01-13 15:07:24,085 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:831)
+2023-01-13 15:07:24,085 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$14(StackAnalyzerView.java:1187)
+2023-01-13 15:07:24,085 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.lang.Thread.run(Unknown Source)
+2023-01-17 09:37:24,377 [INFO] Activator:170 - 
+
+
+2023-01-17 09:37:24,397 [INFO] Activator:171 - !SESSION log4j initialized
+2023-01-20 14:44:25,654 [INFO] Activator:170 - 
+
+
+2023-01-20 14:44:25,695 [INFO] Activator:171 - !SESSION log4j initialized
+2023-01-23 11:00:06,406 [INFO] Activator:170 - 
+
+
+2023-01-23 11:00:06,416 [INFO] Activator:171 - !SESSION log4j initialized
+2023-01-24 13:58:39,700 [INFO] Activator:170 - 
+
+
+2023-01-24 13:58:39,731 [INFO] Activator:171 - !SESSION log4j initialized
+2023-01-24 14:32:27,069 [INFO] Activator:170 - 
+
+
+2023-01-24 14:32:27,072 [INFO] Activator:171 - !SESSION log4j initialized
+2023-01-24 14:46:19,269 [INFO] Activator:170 - 
+
+
+2023-01-24 14:46:19,271 [INFO] Activator:171 - !SESSION log4j initialized
+2023-01-24 17:19:40,624 [INFO] Activator:170 - 
+
+
+2023-01-24 17:19:40,627 [INFO] Activator:171 - !SESSION log4j initialized

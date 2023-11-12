@@ -1,0 +1,4 @@
+Plus on prend de mémoire CPU (en %), plus c'est efficace.
+
+En effet, il vaut mieux que le CPU soit à 100% concentré sur sa tâche mais à faible consommation;
+plutôt qu'une surconsommation avec un CPU concentré à 4% sur la seule tâche qu'il exécute.

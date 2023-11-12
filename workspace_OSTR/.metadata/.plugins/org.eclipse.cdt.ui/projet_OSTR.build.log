@@ -1,0 +1,21 @@
+19:39:52 **** Incremental Build of configuration Debug for project projet_OSTR ****
+make all 
+arm-none-eabi-gcc "../bsp/src/bsp.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DSTM32F072xB -c -I"P:/MEA4/OSTR/workspace_OSTR/projet_OSTR/app/inc" -I"P:/MEA4/OSTR/workspace_OSTR/projet_OSTR/bsp/inc" -I"P:/MEA4/OSTR/workspace_OSTR/projet_OSTR/cmsis/core" -I"P:/MEA4/OSTR/workspace_OSTR/projet_OSTR/cmsis/device/inc" -I"P:/MEA4/OSTR/workspace_OSTR/projet_OSTR/FreeRTOS/include" -I"P:/MEA4/OSTR/workspace_OSTR/projet_OSTR/TraceRecorder/config" -I"P:/MEA4/OSTR/workspace_OSTR/projet_OSTR/FreeRTOS/portable/GCC/ARM_CM0" -I"P:/MEA4/OSTR/workspace_OSTR/projet_OSTR/TraceRecorder/streamports/Jlink_RTT/include" -I"P:/MEA4/OSTR/workspace_OSTR/projet_OSTR/TraceRecorder/include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"bsp/src/bsp.d" -MT"bsp/src/bsp.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "bsp/src/bsp.o"
+arm-none-eabi-gcc "../app/src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DSTM32F072xB -c -I"P:/MEA4/OSTR/workspace_OSTR/projet_OSTR/app/inc" -I"P:/MEA4/OSTR/workspace_OSTR/projet_OSTR/bsp/inc" -I"P:/MEA4/OSTR/workspace_OSTR/projet_OSTR/cmsis/core" -I"P:/MEA4/OSTR/workspace_OSTR/projet_OSTR/cmsis/device/inc" -I"P:/MEA4/OSTR/workspace_OSTR/projet_OSTR/FreeRTOS/include" -I"P:/MEA4/OSTR/workspace_OSTR/projet_OSTR/TraceRecorder/config" -I"P:/MEA4/OSTR/workspace_OSTR/projet_OSTR/FreeRTOS/portable/GCC/ARM_CM0" -I"P:/MEA4/OSTR/workspace_OSTR/projet_OSTR/TraceRecorder/streamports/Jlink_RTT/include" -I"P:/MEA4/OSTR/workspace_OSTR/projet_OSTR/TraceRecorder/include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"app/src/main.d" -MT"app/src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "app/src/main.o"
+arm-none-eabi-gcc -o "projet_OSTR.elf" @"objects.list"   -mcpu=cortex-m0 -T"P:\MEA4\OSTR\workspace_OSTR\projet_OSTR\STM32F072RBTx_FLASH.ld" --specs=nosys.specs -Wl,-Map="projet_OSTR.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: projet_OSTR.elf
+ 
+arm-none-eabi-objdump -h -S  projet_OSTR.elf  > "projet_OSTR.list"
+Finished building: projet_OSTR.list
+ 
+arm-none-eabi-objcopy  -O binary  projet_OSTR.elf  "projet_OSTR.bin"
+Finished building: projet_OSTR.bin
+ 
+arm-none-eabi-size   projet_OSTR.elf 
+   text	   data	    bss	    dec	    hex	filename
+  28184	     32	  15352	  43568	   aa30	projet_OSTR.elf
+Finished building: default.size.stdout
+ 
+
+19:39:59 Build Finished. 0 errors, 0 warnings. (took 6s.634ms)
+
